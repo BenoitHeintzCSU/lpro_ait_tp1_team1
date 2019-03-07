@@ -4,11 +4,50 @@ Date: 07/03/2019 09:42;
 
 Motor assembly procedure:
 
-->First step:
-        -How to mount the motor on the blue support:
-            1.Prepare: -3 screws( diamater 3mm)
-                       - the motor (EMG30 https://www.gotronic.fr/art-motoreducteur-encodeur-emg30-866.htm)
-                       - The pre-prepared support for the motor 
-                       Image: ![alt tag](https://user-images.githubusercontent.com/47211503/53944221-34c88b00-40bf-11e9-91ea-e04711a8d387.jpg)
+- First step:
+    - How to mount the motor on the blue support:
+        1. Prepare:
+            - 3 screws( diamater 3mm)
+            - the motor (EMG30 https://www.gotronic.fr/art-motoreducteur-encodeur-emg30-866.htm)
+            - The pre-prepared support for the motor 
+            - Image:
+            
+             <img src="https://user-images.githubusercontent.com/47211503/53944221-34c88b00-40bf-11e9-91ea-e04711a8d387.jpg" width="500px"/>
+                       
 
-            2.introduce the motor shaft into the big hole on the support as in the following  Image: ![alt tag](https://user-images.githubusercontent.com/47211503/53945231-735f4500-40c1-11e9-8225-456a34cd5692.jpg) 
+        2. introduce the motor shaft into the big hole on the support as in the following
+            Image:
+
+             <img src="https://user-images.githubusercontent.com/47211503/53945231-735f4500-40c1-11e9-8225-456a34cd5692.jpg" width="500px"/>
+        
+        3. Then screw the motor to the support with a flat screwdriver:
+
+             <img src="https://user-images.githubusercontent.com/47211503/53946732-a3f4ae00-40c4-11e9-84e8-dc79f56a1d49.jpg" width="500px"/>
+
+            In the following holes:
+
+             <img src="https://user-images.githubusercontent.com/47211503/53946782-bff84f80-40c4-11e9-9495-775080fd97b5.jpg" width="500px"/> 
+
+          (the 3 prepared screw must be used)
+- Second step:
+    - How to connect the arduino and the motor
+        1. Plug the red wire to the motor driver pin vin and the black one in the motor driver pin gnd 
+
+        <img src="https://user-images.githubusercontent.com/47211503/53947737-a48e4400-40c6-11e9-98be-137f3bf889c5.jpg" width="500px"/>
+
+        2. Insert the motor driver into Arduino digital pins 6, 7, 8, 9, and 10 on one side and Arduino VIN, GND, GND, and 5V/VCC on the other. The upper-left corner of the shield partially blocks the Arduino’s 3.3V pin
+
+        <img src="https://user-images.githubusercontent.com/47211503/53947415-fda9a800-40c5-11e9-8b47-6c17aa7ff061.jpg" width="500px"/>
+
+        3. Plug the jumper on the motor driver between vout and the pin near Vout 
+
+        <img src="https://user-images.githubusercontent.com/47211503/53948106-647b9100-40c7-11e9-8f67-8b38ee27dd53.jpg"width="500px"/>
+
+- Third step:
+    - Mount the sensor support
+        1. Use a philips screwdriver to swrew the screw in the holes of the sensor support
+        
+
+
+
+
