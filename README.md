@@ -7,8 +7,8 @@ All **reports** will be written as a *.md* file in a folder `/reports/...`.
 **Don't forget to `commit` and `push` every time you completed a task.**
 
 - Names
-    - Name 1
-    - Name 2
+    - Hager François
+    - Herpsont Horrillo Tristan
     
 ## 1. Hardware
 
