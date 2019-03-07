@@ -31,22 +31,28 @@ Motor assembly procedure:
           (the 3 prepared screw must be used)
 - Second step:
     - How to connect the arduino and the motor
-        1. Plug the red wire to the motor driver pin vin and the black one in the motor driver pin gnd 
+        1. Plug the red wire to the motor driver pin M1A and the black one in the motor driver pin M1B 
 
-        <img src="https://user-images.githubusercontent.com/47211503/53947737-a48e4400-40c6-11e9-98be-137f3bf889c5.jpg" width="500px"/>
+        <img src="https://user-images.githubusercontent.com/47211503/53949930-634c6300-40cb-11e9-903f-d686acf780a3.jpg" width="500px"/>
 
         2. Insert the motor driver into Arduino digital pins 6, 7, 8, 9, and 10 on one side and Arduino VIN, GND, GND, and 5V/VCC on the other. The upper-left corner of the shield partially blocks the Arduino’s 3.3V pin
 
-        <img src="https://user-images.githubusercontent.com/47211503/53947415-fda9a800-40c5-11e9-8b47-6c17aa7ff061.jpg" width="500px"/>
+        <img src="https://user-images.githubusercontent.com/47211503/53949928-62b3cc80-40cb-11e9-9b95-2d2cd852b8c8.jpg" width="500px"/>
 
         3. Plug the jumper on the motor driver between vout and the pin near Vout 
 
-        <img src="https://user-images.githubusercontent.com/47211503/53948106-647b9100-40c7-11e9-8f67-8b38ee27dd53.jpg"width="500px"/>
+        <img src="https://user-images.githubusercontent.com/47211503/53949929-62b3cc80-40cb-11e9-969f-8e4f8f431c54.jpg"width="500px"/>
 
 - Third step:
     - Mount the sensor support
         1. Use a philips screwdriver to swrew the screw in the holes of the sensor support
-        
+
+        <img src="https://user-images.githubusercontent.com/47211503/53949680-dacdc280-40ca-11e9-8e79-916f0524d36f.jpg"width="500px"/>
+
+        2. insert the motor shaft in the big hole of the sensor support and then tighten by screwing the screw 
+
+        <img src="https://user-images.githubusercontent.com/47211503/53949681-dacdc280-40ca-11e9-8458-975934fd2a9d.jpg"width="500px"/>
+
 
 
 
