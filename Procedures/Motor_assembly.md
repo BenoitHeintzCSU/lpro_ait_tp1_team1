@@ -65,7 +65,5 @@ How to use the motor procedure:
     3. Then file -> exemple -> DRV8835MOTORSHIELD and check if there is no error in the programm.
 
     4. Connect the adruino to your computer and upload the programm to the arduino.
-        (Be sure to select the right COM Port in the menu tools->port)
-
-    5. Check if the motor is working. 
+        (Be sure to select the right COM Port in the menu tools->port) 
 
