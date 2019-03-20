@@ -1,3 +1,7 @@
+# Corrections
+* <span style="color:red">Put **/Procedures** folder in **/docs**.</span>
+* <span style="color:red">Use titles and subtitles with **#** and **##** (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)</span>
+
 Test procedure 
 
 Test procedure for the motor:
