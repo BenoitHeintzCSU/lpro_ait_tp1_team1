@@ -21,3 +21,10 @@ After 2 seconds of delay the motor start to turn the other way and the LED 13 on
 
 #### - Third step
 The motor is looping, following the 2 previous steps
+
+## Results
+|        |   ok/not ok        |
+| ------------- |:-------------:| 
+| First step      |  |
+| Second step    |      |
+| Third step |      |

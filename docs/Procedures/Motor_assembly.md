@@ -51,27 +51,25 @@ Motor assembly procedure:
 
   <img src="https://user-images.githubusercontent.com/47211503/53949929-62b3cc80-40cb-11e9-969f-8e4f8f431c54.jpg" width="500px"/>
 
-- Third step: <span style="color:red">Same, just **3. Sensor support mounting** would be enough and more readable</span>
-    - Mount the sensor support
-        1. Use a philips screwdriver to swrew the screw in the holes of the sensor support
+ <span style="color:red">Same, just **3. Sensor support mounting** would be enough and more readable</span>
+  ### 3.Mount the sensor support
+  1. Use a philips screwdriver to swrew the screw in the holes of the sensor support
 
-         <img src="https://user-images.githubusercontent.com/47211503/53949680-dacdc280-40ca-11e9-8e79-916f0524d36f.jpg" width="500px"/>
+      <img src="https://user-images.githubusercontent.com/47211503/53949680-dacdc280-40ca-11e9-8e79-916f0524d36f.jpg" width="500px"/>
+  2. insert the motor shaft in the big hole of the sensor support and then tighten by screwing the screw 
 
-        2. insert the motor shaft in the big hole of the sensor support and then tighten by screwing the screw 
-
-         <img src="https://user-images.githubusercontent.com/47211503/53949681-dacdc280-40ca-11e9-8458-975934fd2a9d.jpg" width="500px"/>
+      <img src="https://user-images.githubusercontent.com/47211503/53949681-dacdc280-40ca-11e9-8458-975934fd2a9d.jpg" width="500px"/>
 
 
 
 ### How to use the motor procedure: 
 
- - First step:
-    #### 1. Get form https://github.com/pololu/drv8835-motor-shield/releases/tag/2.0.0 the library 
 
-    #### 2. Open arduino IDE, create a new folder and add a library ".zip" select the .zip library downloaded previously 
+   #### 1. Get form https://github.com/pololu/drv8835-motor-shield/releases/tag/2.0.0 the library 
 
-    #### 3. Then file -> exemple -> DRV8835MOTORSHIELD and check if there is no error in the programm.
+   #### 2. Open arduino IDE, create a new folder and add a library ".zip" select the .zip library downloaded previously 
 
-    #### 4. Connect the adruino to your computer and upload the programm to the arduino.
-    (Be sure to select the right COM Port in the menu tools->port) 
+   #### 3. Then file -> exemple -> DRV8835MOTORSHIELD and check if there is no error in the programm.
+
+   #### 4. Connect the adruino to your computer and upload the programm to the arduino.    (Be sure to select the right COM Port in the menu tools->port) 
 
