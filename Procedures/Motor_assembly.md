@@ -10,23 +10,23 @@ Date: 07/03/2019 09:42;
 
 Motor assembly procedure:
 
-- First step:
-    - How to mount the motor on the blue support:
-        1. Prepare:
-            - 3 screws( diamater 3mm) <span style="color:red">3 screws (diamater 3mm)</span>
-            - the motor (EMG30 https://www.gotronic.fr/art-motoreducteur-encodeur-emg30-866.htm)
-            - The pre-prepared support for the motor 
-            - ~~Image~~: <span style="color:red">Not needed</span>
-            
-             <img src="https://user-images.githubusercontent.com/47211503/53944221-34c88b00-40bf-11e9-91ea-e04711a8d387.jpg" width="500px"/>
+# -First step:
+ ### - How to mount the motor on the blue support:
+#### 1. Prepare:
+    - 3 screws( diamater 3mm) <span style="color:red">3 screws (diamater 3mm)</span>
+     - the motor (EMG30 https://www.gotronic.fr/art-motoreducteur-encodeur-emg30-866.htm)
+     - The pre-prepared support for the motor 
+     - ~~Image~~: <span style="color:red">Not needed</span>
+        
+          <img src="https://user-images.githubusercontent.com/47211503/53944221-34c88b00-40bf-11e9-91ea-e04711a8d387.jpg" width="500px"/>
                        
 
-        2. introduce the motor shaft into the big hole on the support as in the following
-            ~~Image~~ <span style="color:red">image</span>:
+####    2. introduce the motor shaft into the big hole on the support as in the following
+             <span style="color:red">image</span>:
 
              <img src="https://user-images.githubusercontent.com/47211503/53945231-735f4500-40c1-11e9-8225-456a34cd5692.jpg" width="500px"/>
         
-        3. Then screw the motor to the support with a flat screwdriver:
+ ####   3. Then screw the motor to the support with a flat screwdriver:
 
              <img src="https://user-images.githubusercontent.com/47211503/53946732-a3f4ae00-40c4-11e9-84e8-dc79f56a1d49.jpg" width="500px"/>
 
@@ -36,19 +36,20 @@ Motor assembly procedure:
 
           (the 3 prepared screw must be used)
         <span style="color:red">Whatch out the aligment, here it has been interpreted as a **Code block** and it's not a **code block**</span>
-- Second step: <span style="color:red">Use titles and subtitles with **#** and **##** and give a name to the step. No need to make a level called **Second step** and a next level **How to connect the arduino and the motor**, just put **## How to connect the arduino and the motor**, or **2. How to connect the arduino and the motor**</span>
-    - How to connect the arduino and the motor
-        1. Plug the red wire to the motor driver pin M1A and the black one in the motor driver pin M1B 
+- ~~Second step:~~ <span style="color:red">Use titles and subtitles with **#** and **##** and give a name to the step. No need to make a level called **Second step** and a next level **How to connect the arduino and the motor**, just put **## How to connect the arduino and the motor**, or **2. How to connect the arduino and the motor**</span>
 
-         <img src="https://user-images.githubusercontent.com/47211503/53949930-634c6300-40cb-11e9-903f-d686acf780a3.jpg" width="500px"/>
+### How to connect the arduino and the motor
+#### 1. Plug the red wire to the motor driver pin M1A and the black one in the motor driver pin M1B 
 
-        2. Insert the motor driver into Arduino digital pins 6, 7, 8, 9, and 10 on one side and Arduino VIN, GND, GND, and 5V/VCC on the other. The upper-left corner of the shield partially blocks the Arduino’s 3.3V pin
+ <img src="https://user-images.githubusercontent.com/47211503/53949930-634c6300-40cb-11e9-903f-d686acf780a3.jpg" width="500px"/>
 
-         <img src="https://user-images.githubusercontent.com/47211503/53949928-62b3cc80-40cb-11e9-9b95-2d2cd852b8c8.jpg" width="500px"/>
+#### 2. Insert the motor driver into Arduino digital pins 6, 7, 8, 9, and 10 on one side and Arduino VIN, GND, GND, and 5V/VCC on the other. The upper-left corner of the shield partially blocks the Arduino’s 3.3V pin
 
-        3. Plug the jumper on the motor driver between vout and the pin near Vout 
+<img src="https://user-images.githubusercontent.com/47211503/53949928-62b3cc80-40cb-11e9-9b95-2d2cd852b8c8.jpg" width="500px"/>
 
-         <img src="https://user-images.githubusercontent.com/47211503/53949929-62b3cc80-40cb-11e9-969f-8e4f8f431c54.jpg" width="500px"/>
+#### 3. Plug the jumper on the motor driver between vout and the pin near Vout 
+
+  <img src="https://user-images.githubusercontent.com/47211503/53949929-62b3cc80-40cb-11e9-969f-8e4f8f431c54.jpg" width="500px"/>
 
 - Third step: <span style="color:red">Same, just **3. Sensor support mounting** would be enough and more readable</span>
     - Mount the sensor support
@@ -62,15 +63,15 @@ Motor assembly procedure:
 
 
 
-How to use the motor procedure: 
+### How to use the motor procedure: 
 
  - First step:
-    1. Get form https://github.com/pololu/drv8835-motor-shield/releases/tag/2.0.0 the library 
+    #### 1. Get form https://github.com/pololu/drv8835-motor-shield/releases/tag/2.0.0 the library 
 
-    2. Open arduino IDE, create a new folder and add a library ".zip" select the .zip library downloaded previously 
+    #### 2. Open arduino IDE, create a new folder and add a library ".zip" select the .zip library downloaded previously 
 
-    3. Then file -> exemple -> DRV8835MOTORSHIELD and check if there is no error in the programm.
+    #### 3. Then file -> exemple -> DRV8835MOTORSHIELD and check if there is no error in the programm.
 
-    4. Connect the adruino to your computer and upload the programm to the arduino.
-        (Be sure to select the right COM Port in the menu tools->port) 
+    #### 4. Connect the adruino to your computer and upload the programm to the arduino.
+    (Be sure to select the right COM Port in the menu tools->port) 
 
